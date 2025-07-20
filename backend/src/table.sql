@@ -5,7 +5,8 @@ CREATE TABLE users (
     role VARCHAR(50) NOT NULL
 );
 
-
+ 
+ 
 CREATE TABLE students (
     id SERIAL PRIMARY KEY,
     user_id BIGINT NOT NULL UNIQUE,
